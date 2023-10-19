@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color:white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 100px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.hero {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.hero-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.featured-movies {
+    padding: 40px 0;
+}
+
+.featured-movies h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
